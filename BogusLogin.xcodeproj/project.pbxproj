@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3CC73C01679482200BCA65B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC73BF1679482200BCA65B /* UIKit.framework */; };
+		B3CC73C21679482200BCA65B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC73C11679482200BCA65B /* Foundation.framework */; };
+		B3CC73C41679482200BCA65B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC73C31679482200BCA65B /* CoreGraphics.framework */; };
+		B3CC73CA1679482200BCA65B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3CC73C81679482200BCA65B /* InfoPlist.strings */; };
+		B3CC73CC1679482200BCA65B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC73CB1679482200BCA65B /* main.m */; };
+		B3CC73D01679482200BCA65B /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC73CF1679482200BCA65B /* MLAppDelegate.m */; };
+		B3CC73D21679482200BCA65B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3CC73D11679482200BCA65B /* Default.png */; };
+		B3CC73D41679482200BCA65B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3CC73D31679482200BCA65B /* Default@2x.png */; };
+		B3CC73D61679482200BCA65B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3CC73D51679482200BCA65B /* Default-568h@2x.png */; };
+		B3CC73D91679482200BCA65B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC73D71679482200BCA65B /* MainStoryboard.storyboard */; };
+		B3CC73DC1679482200BCA65B /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC73DB1679482200BCA65B /* MLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3CC73BB1679482200BCA65B /* BogusLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BogusLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CC73BF1679482200BCA65B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3CC73C11679482200BCA65B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3CC73C31679482200BCA65B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3CC73C71679482200BCA65B /* BogusLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BogusLogin-Info.plist"; sourceTree = "<group>"; };
+		B3CC73C91679482200BCA65B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3CC73CB1679482200BCA65B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3CC73CD1679482200BCA65B /* BogusLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BogusLogin-Prefix.pch"; sourceTree = "<group>"; };
+		B3CC73CE1679482200BCA65B /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		B3CC73CF1679482200BCA65B /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		B3CC73D11679482200BCA65B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3CC73D31679482200BCA65B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3CC73D51679482200BCA65B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3CC73D81679482200BCA65B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B3CC73DA1679482200BCA65B /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
+		B3CC73DB1679482200BCA65B /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3CC73B81679482200BCA65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CC73C01679482200BCA65B /* UIKit.framework in Frameworks */,
+				B3CC73C21679482200BCA65B /* Foundation.framework in Frameworks */,
+				B3CC73C41679482200BCA65B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3CC73B01679482200BCA65B = {
+			isa = PBXGroup;
+			children = (
+				B3CC73C51679482200BCA65B /* BogusLogin */,
+				B3CC73BE1679482200BCA65B /* Frameworks */,
+				B3CC73BC1679482200BCA65B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3CC73BC1679482200BCA65B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC73BB1679482200BCA65B /* BogusLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3CC73BE1679482200BCA65B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC73BF1679482200BCA65B /* UIKit.framework */,
+				B3CC73C11679482200BCA65B /* Foundation.framework */,
+				B3CC73C31679482200BCA65B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3CC73C51679482200BCA65B /* BogusLogin */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC73CE1679482200BCA65B /* MLAppDelegate.h */,
+				B3CC73CF1679482200BCA65B /* MLAppDelegate.m */,
+				B3CC73D71679482200BCA65B /* MainStoryboard.storyboard */,
+				B3CC73DA1679482200BCA65B /* MLViewController.h */,
+				B3CC73DB1679482200BCA65B /* MLViewController.m */,
+				B3CC73C61679482200BCA65B /* Supporting Files */,
+			);
+			path = BogusLogin;
+			sourceTree = "<group>";
+		};
+		B3CC73C61679482200BCA65B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC73C71679482200BCA65B /* BogusLogin-Info.plist */,
+				B3CC73C81679482200BCA65B /* InfoPlist.strings */,
+				B3CC73CB1679482200BCA65B /* main.m */,
+				B3CC73CD1679482200BCA65B /* BogusLogin-Prefix.pch */,
+				B3CC73D11679482200BCA65B /* Default.png */,
+				B3CC73D31679482200BCA65B /* Default@2x.png */,
+				B3CC73D51679482200BCA65B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3CC73BA1679482200BCA65B /* BogusLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CC73DF1679482200BCA65B /* Build configuration list for PBXNativeTarget "BogusLogin" */;
+			buildPhases = (
+				B3CC73B71679482200BCA65B /* Sources */,
+				B3CC73B81679482200BCA65B /* Frameworks */,
+				B3CC73B91679482200BCA65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BogusLogin;
+			productName = BogusLogin;
+			productReference = B3CC73BB1679482200BCA65B /* BogusLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3CC73B21679482200BCA65B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Matt Long";
+			};
+			buildConfigurationList = B3CC73B51679482200BCA65B /* Build configuration list for PBXProject "BogusLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3CC73B01679482200BCA65B;
+			productRefGroup = B3CC73BC1679482200BCA65B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3CC73BA1679482200BCA65B /* BogusLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3CC73B91679482200BCA65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CC73CA1679482200BCA65B /* InfoPlist.strings in Resources */,
+				B3CC73D21679482200BCA65B /* Default.png in Resources */,
+				B3CC73D41679482200BCA65B /* Default@2x.png in Resources */,
+				B3CC73D61679482200BCA65B /* Default-568h@2x.png in Resources */,
+				B3CC73D91679482200BCA65B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3CC73B71679482200BCA65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CC73CC1679482200BCA65B /* main.m in Sources */,
+				B3CC73D01679482200BCA65B /* MLAppDelegate.m in Sources */,
+				B3CC73DC1679482200BCA65B /* MLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3CC73C81679482200BCA65B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CC73C91679482200BCA65B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3CC73D71679482200BCA65B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CC73D81679482200BCA65B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3CC73DD1679482200BCA65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B3CC73DE1679482200BCA65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3CC73E01679482200BCA65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BogusLogin/BogusLogin-Prefix.pch";
+				INFOPLIST_FILE = "BogusLogin/BogusLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3CC73E11679482200BCA65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BogusLogin/BogusLogin-Prefix.pch";
+				INFOPLIST_FILE = "BogusLogin/BogusLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3CC73B51679482200BCA65B /* Build configuration list for PBXProject "BogusLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CC73DD1679482200BCA65B /* Debug */,
+				B3CC73DE1679482200BCA65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CC73DF1679482200BCA65B /* Build configuration list for PBXNativeTarget "BogusLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CC73E01679482200BCA65B /* Debug */,
+				B3CC73E11679482200BCA65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3CC73B21679482200BCA65B /* Project object */;
+}
