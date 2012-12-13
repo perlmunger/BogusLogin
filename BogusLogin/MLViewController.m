@@ -16,14 +16,21 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)didTapLogin:(id)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [self loginWithUsername:[[self usernameTextField] text] password:[[self passwordTextField] text]];
+}
+
+- (void)loginWithUsername:(NSString*)username password:(NSString*)password
+{
+  DLog(@"Username and Password before: %@:%@", username, password);
+  
+  DLog(@"A line for the breakpoint"); // <-- SET YOUR BREAKPOINT ON THIS LINE
+  
+  DLog(@"Username and Password after:  %@:%@", username, password);
 }
 
 @end

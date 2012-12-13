@@ -10,4 +10,7 @@
 
 @interface MLViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UITextField *usernameTextField;
+@property (nonatomic, weak) IBOutlet UITextField *passwordTextField;
+
 @end
